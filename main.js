@@ -1,6 +1,6 @@
 import "./style.css";
-import { getProducts } from "./src/api/getProducts";
-import { createProductCard } from "./src/components/productCard";
+import { getProducts } from "./src/api/getProduct.js";
+import { createProductCard } from "./src/components/productCard.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
   const products = await getProducts();

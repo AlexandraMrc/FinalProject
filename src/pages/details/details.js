@@ -1,5 +1,5 @@
-import { getProductById } from "../../api/getProductById";
-import { createProductDetailsCard } from "../../components/productDetailsCard";
+import { getProductById } from "../../api/getProductById.js";
+import { createProductDetailsCard } from "../../components/productDetailsCard.js";
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
