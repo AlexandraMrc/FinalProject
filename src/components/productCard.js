@@ -5,6 +5,6 @@ export const createProductCard = (product) => `
       <p>${product.name}</p>
       <img src=${product.image} />
       <p>${product.price}</p>
-      <a href="src/pages/details/details.html?id=${product.id}">Details</a>
+      <a href="src/pages/details/details.html?id=${product.id}">DESCOPERĂ</a>
    </div>
 `;

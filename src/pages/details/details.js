@@ -1,5 +1,7 @@
-import { getProductById } from "../../api/getProductById.js";
-import { createProductDetailsCard } from "../../components/productDetailsCard.js";
+import "../../../style.css";
+import { getProductById } from "../../api/getProductById";
+import { createProductDetailsCard } from "../../components/productDetailsCard";
+import { addProductToCart } from "../../utils/cart";
 
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -10,4 +12,10 @@ window.addEventListener("load", async () => {
 
   document.getElementById("details").innerHTML =
     createProductDetailsCard(product);
+});
+
+document.getElementById("details").addEventListener("click", (e) => {
+  if (e.target.classList.contains("add-to-cart-btn")) {
+    addProductToCart(productId);
+  }
 });

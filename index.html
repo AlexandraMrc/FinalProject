@@ -4,19 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Books</title>
+    <script
+      src="https://kit.fontawesome.com/fb11087e21.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div id="app">
-      <div class="navbar">
-        <div>
-          <a href="./index.html">Home</a>
-          <a href="./src/pages/details/details.html">Details</a>
-          <a href="./src/pages/cart/cart.html">Cart</a>
-          <a href="./src/pages/admin/admin.html">Admin</a>
-        </div>
+      <div class="info">
+        <ul>
+          <li>
+            <a href="mailto:alexandra.marcut91@gmail.com"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </li>
+          <li><a href="#">Magazine</a></li>
+        </ul>
       </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <!-- <li><a href="./src/pages/details/details.html">Details</a></li> -->
+          <li style="float: right">
+            <a href="./src/pages/cart/cart.html"
+              >Cart<i class="fa-solid fa-cart-arrow-down"></i
+            ></a>
+          </li>
+          <li style="float: right">
+            <a href="./src/pages/admin/admin.html"
+              ><i class="fa-solid fa-lock"></i> Admin</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <br />
       <div id="products"></div>
+      <br />
     </div>
+
     <script type="module" src="main.js"></script>
   </body>
 </html>

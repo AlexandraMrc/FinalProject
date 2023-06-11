@@ -1,4 +1,4 @@
-import { productsURL } from "../constans";
+import { productsURL } from "../constans.js";
 
 export const getProductById = async (id) => {
   const response = await fetch(`${productsURL}/${id}`);
