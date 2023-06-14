@@ -8,6 +8,20 @@
   margin-right: 20%;
 }
 
+.logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(70, 24, 24);
+  font-weight: bolder;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.logo:hover {
+  color: rgb(190, 147, 38);
+  font-size: 25px;
+}
+
 .info {
   background-color: white;
   box-shadow: 0 4px 3px rgb(73, 72, 72);
@@ -58,4 +72,59 @@ ul {
 
 .info {
   background-image: linear-gradient(to bottom, rgb(237, 237, 147), white);
+}
+
+.info img {
+  position: relative;
+  width: 60px;
+  height: 50px;
+}
+
+#btnAddNewProd {
+  background-color: rgb(175, 231, 43);
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tableAddProd {
+  border: 1px solid black;
+  /* width: 50%; */
+}
+
+#idAddProd {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.hidden {
+  border: 2px solid rgb(231, 201, 126);
+  width: 40%;
+  padding: 15px;
+}
+.hidden tr,
+td {
+  padding: auto;
+  border: none;
+}
+input[type="text"] {
+  width: 400px;
+}
+
+#save {
+  background-color: rgb(144, 255, 144);
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#cancel {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
 }

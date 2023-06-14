@@ -15,7 +15,7 @@ export const addProductToCart = (id) => {
   }
 };
 
-function isProductAlreadyInCart(id, cartArray) {
+export function isProductAlreadyInCart(id, cartArray) {
   const product = cartArray.find((product) => product.id === id);
 
   return product !== undefined;
@@ -35,4 +35,14 @@ export function decrementProductQuantity(id, cartArray) {
   if (product != undefined) {
     product.quantity--;
   }
+
+  if (product.quantity == 0) {
+    cartArray.splice(cartArray.indexOf(product), 1);
+  }
+}
+
+export function getProductQuantityFromLocalStorage(id, cartArray) {
+  const product = cartArray.find((product) => product.id === id);
+
+  return product.quantity;
 }

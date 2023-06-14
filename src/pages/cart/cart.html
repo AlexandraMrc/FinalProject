@@ -5,17 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cart</title>
+    <script
+      src="https://kit.fontawesome.com/fb11087e21.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="navbar">
-      <div>
-        <a href="../../../index.html">Home</a>
+    <nav class="navbar">
+      <ul>
+        <li style="float: left">
+          <a href="../../../index.html"
+            ><i class="fa-solid fa-house-user"></i> Home</a
+          >
+        </li>
         <!-- <a href="../details/details.html">Details</a> -->
-        <a href="../cart/cart.html">Cart</a>
-        <a href="../admin/admin.html">Admin</a>
-      </div>
-    </div>
-    <h1>Cart</h1>
-    <script src="main.js"></script>
+        <li style="float: right">
+          <a href="../cart/cart.html"
+            >Coş compărături <i class="fa-solid fa-cart-arrow-down"></i
+          ></a>
+        </li>
+        <li style="float: right">
+          <a href="../admin/admin.html"
+            >Admin <i class="fa-solid fa-lock"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Coş de cumpărături</h1>
+    <div id="cart"></div>
+    <script type="module" src="cart.js"></script>
   </body>
 </html>

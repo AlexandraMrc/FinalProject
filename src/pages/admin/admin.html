@@ -4,17 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" src="style.css" /> -->
     <title>Admin</title>
+    <script
+      src="https://kit.fontawesome.com/fb11087e21.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="navbar">
-      <div>
-        <a href="../../../index.html">Home</a>
-        <!-- <a href="../details/details.html">Details</a> -->
-        <a href="../cart/cart.html">Cart</a>
-        <a href="../admin/admin.html">Admin</a>
-      </div>
-    </div>
-    <h1>Admin page</h1>
+    <nav class="navbar">
+      <ul>
+        <li style="float: left">
+          <a href="../../../index.html"
+            ><i class="fa-solid fa-house-user"></i> Home</a
+          >
+        </li>
+        <li style="float: right">
+          <a href="../cart/cart.html"
+            >Coş compărături<i class="fa-solid fa-cart-arrow-down"></i
+          ></a>
+        </li>
+        <li style="float: right">
+          <a href="../admin/admin.html"
+            >Admin <i class="fa-solid fa-lock"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <h3>Gestionare produse</h3>
+    <button id="btnAddNewProd">
+      <i class="fa-regular fa-plus"></i> Adauga produs nou
+    </button>
+    <br />
+    <br />
+
+    <table class="tableAddProd">
+      <thead>
+        <tr>
+          <td>Imagine</td>
+          <td>Nume</td>
+          <td>Pret</td>
+          <td>Cantitate</td>
+          <td>Sterge</td>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+    <br />
+    <table hidden="hidden">
+      <tr>
+        <td id="idAddProd">Adaugare produs</td>
+        <td><button id="save">Save</button></td>
+        <td><button id="cancel">Cancel</button></td>
+      </tr>
+      <tr>
+        <td>Imagine</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Nume</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Descriere</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Pret</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td>Cantitate</td>
+        <td><input type="text" /></td>
+      </tr>
+    </table>
+
+    <script type="module" src="admin.js"></script>
   </body>
 </html>
