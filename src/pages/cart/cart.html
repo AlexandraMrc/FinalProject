@@ -11,6 +11,29 @@
     ></script>
   </head>
   <body>
+    <div class="info">
+      <ul>
+        <li style="float: left" class="logo">&#x27E1; KULTHO &#x27E1;</li>
+        <li>
+          <a href="mailto:alexandra.marcut91@gmail.com"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+        </li>
+
+        <li>
+          <a href="https://www.facebook.com"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li><a href="#">Magazine</a></li>
+      </ul>
+    </div>
+
     <nav class="navbar">
       <ul>
         <li style="float: left">
@@ -31,8 +54,32 @@
         </li>
       </ul>
     </nav>
+    <div class="bodyCart">
     <h1>Coş de cumpărături</h1>
-    <div id="cart"></div>
+      <table class="tabelCumparaturi">
+        <thead>
+          <tr>
+            <td>Nume produs</td>
+            <td>Imagine</td>
+            <td>Pret</td>
+            <td></td>
+            <td>Cantitate</td>
+            <td></td>
+            <td></td>
+          </tr>
+        </thead>
+
+        <tbody id="cart"></tbody>
+      </table>
+      <br />
+      <h2 id="totalP">
+        Total:
+      </h2>
+      <button id="cumpara">
+        <i class="fa-solid fa-arrow-right"></i> Cumpără
+      </button>
+    </div>
+  </div>
     <script type="module" src="cart.js"></script>
   </body>
 </html>
