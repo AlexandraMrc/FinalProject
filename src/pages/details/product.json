@@ -1,0 +1,456 @@
+[
+    {
+     "createdAt": "2023-06-11T08:34:56.323Z",
+     "name": "Inel de logodna aur 14 kt inima bouquet cu diamante",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/133/132177/800_bij_132177.jpg",
+     "details": "32 diamante 0.075ct (GH SI3 I1 S/C)",
+     "greutate": "4.45 g",
+     "price": "3.200 Lei",
+     "id": "1",
+     "description": "Originalitatea si rafinamentul se intalnesc in acest inel semi eternity din aur alb creat pentru a-ti accentua farmecul personal.  ",
+     "in stoc": "10 buc",
+     "in-stoc": "10 buc"
+    },
+    {
+     "createdAt": "2023-06-11T06:02:34.695Z",
+     "name": "Cercei Chaumet Josephine",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/16/15410/800_bij_15410.jpg",
+     "details": "30 diamante 0.74ct (G VS)  ",
+     "greutate": " 6.17 g",
+     "price": "57.100 Lei",
+     "id": "2",
+     "description": "Originalitatea si rafinamentul se intalnesc in acest inel semi eternity din aur alb creat pentru a-ti accentua farmecul personal.  "
+    },
+    {
+     "createdAt": "2023-06-10T15:24:04.419Z",
+     "name": "Cercei aur 18 kt rotunzi cu diamante",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/135/134395/2/800_bij_134395.jpg",
+     "details": "18 diamante 2.99ct (G VS SI), 54 diamante 4.55ct (G VS SI)",
+     "greutate": " 17.3 g",
+     "price": "104.400 Lei",
+     "id": "3"
+    },
+    {
+     "createdAt": "2023-06-10T18:43:15.641Z",
+     "name": "Colier Valentina Callegher Crosses",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/98/97617/800_bij_97617.jpg",
+     "details": "4 rubine 0.39ct, 44 diamante 0.22ct (G VS)",
+     "greutate": " 3.86 g",
+     "price": "12.250 Lei",
+     "id": "4"
+    },
+    {
+     "createdAt": "2023-06-10T09:06:11.289Z",
+     "name": "Colier Pasquale Bruni Ton Joli",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/114/113056/800_bij_113056.jpg",
+     "details": "3 diamante 0.04 ct. F-G VVS-VS, 2 piatra lunii gri si alba si onix 11.56 ct.",
+     "greutate": "  g",
+     "price": "15.750 Lei",
+     "id": "5"
+    },
+    {
+     "createdAt": "2023-06-11T02:23:22.581Z",
+     "name": "Colier aur 14 kt floare cu diamante",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/135/134396/800_bij_134396.jpg",
+     "details": "9 diamante 0.03ct (GH SI3 I1)",
+     "greutate": "  g",
+     "price": "1.300 Lei",
+     "id": "6"
+    },
+    {
+     "createdAt": "2023-06-10T13:57:57.722Z",
+     "name": "Colier Bliss Paradise aur 18 kt cu perle de cultura",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/135/134382/800_bij_134382.jpg",
+     "details": "58 perle de cultura 139.85ct 7-7.5mm cu aur 750 0.40g",
+     "greutate": "28.37 g",
+     "price": "1.050 Lei",
+     "id": "7"
+    },
+    {
+     "createdAt": "2023-06-10T12:27:31.896Z",
+     "name": "Colier aur 14 kt baguette cu diamante",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/135/134387/800_bij_134387.jpg",
+     "details": "27 diamante 1.19ct (G VS), 366 diamante 5.03ct (G VS)",
+     "greutate": "43.13 g",
+     "price": "79.400 Lei",
+     "id": "8"
+    },
+    {
+     "createdAt": "2023-06-10T11:04:09.447Z",
+     "name": "Pandantiv aur 14 kt cu ametist verde",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/132/131937/800_bij_131937.jpg",
+     "details": "ametist verde 10.12ct",
+     "greutate": "4.45 g",
+     "price": "2.350 Lei",
+     "id": "9"
+    },
+    {
+     "createdAt": "2023-06-10T15:13:54.023Z",
+     "name": "Pandantiv Vida aur 18 kt cruce cu pietre semipretioase si diamante",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/134/133954/800_bij_133954.jpg",
+     "details": "18 diamante 0.114ct (H SI), mix 6 pietre semipretioase 2.53ct",
+     "greutate": "2.81 g",
+     "price": "4.000 Lei",
+     "id": "10"
+    },
+    {
+     "createdAt": "2023-06-11T01:57:56.172Z",
+     "name": "Bratara Ekan Diamonds Star aur 14 kt cu diamante",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/134/133305/800_bij_133305.jpg",
+     "details": "2 diamante 0.05 ct. H SIt",
+     "greutate": "0.66 g",
+     "price": "1.000 Lei",
+     "id": "11"
+    },
+    {
+     "createdAt": "2023-06-11T02:54:46.271Z",
+     "name": "Butoni Zancan Gold Couture",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/43/42574/800_bij_42574.jpg",
+     "details": "2 diamante 0.03 ct. H SI, 10 diamante negre 0.65 ct.",
+     "greutate": "10.67 g",
+     "price": "17.600 Lei",
+     "id": "12"
+    },
+    {
+     "createdAt": "2023-06-10T16:36:45.433Z",
+     "name": "Cercei Bbee Kids",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/91/90782/800_bij_90782.jpg",
+     "details": "4 topaze 0.559ct, 10 diamante 0.022ct (H I)",
+     "greutate": "0.75 g, 0.77 g",
+     "price": "1.370 Lei",
+     "id": "13"
+    },
+    {
+     "createdAt": "2023-06-10T23:04:09.524Z",
+     "name": "Cercei Bbee Fluture",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/111/110195/2/800_bij_110195.jpg",
+     "details": "16 diamante 0.040 ct. H SI",
+     "greutate": "0.72 g",
+     "price": "1.130 Lei",
+     "id": "14"
+    },
+    {
+     "createdAt": "2023-06-11T02:08:50.326Z",
+     "name": "Inel de logodna aur 14 kt inima bouquet cu diamante",
+     "image": "https://www.kultho.ro/_files/galerie_foto/bijuteri/133/132177/800_bij_132177.jpg",
+     "details": "32 diamante 0.075ct (GH SI3 I1 S/C)",
+     "greutate": "2.76  g",
+     "price": "3.200 Lei",
+     "id": "15"
+    },
+    {
+     "createdAt": "2023-06-11T07:04:13.278Z",
+     "name": "Pflugerville",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/59.jpg",
+     "details": "details 19",
+     "greutate": 71,
+     "price": 73,
+     "id": "19"
+    },
+    {
+     "createdAt": "2023-06-11T03:03:27.311Z",
+     "name": "Canton",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/225.jpg",
+     "details": "details 24",
+     "greutate": 98,
+     "price": 41,
+     "id": "24"
+    },
+    {
+     "createdAt": "2023-06-10T19:38:51.846Z",
+     "name": "Fontana",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/858.jpg",
+     "details": "details 25",
+     "greutate": 78,
+     "price": 38,
+     "id": "25"
+    },
+    {
+     "createdAt": "2023-06-10T20:33:24.406Z",
+     "name": "Cedar Hill",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/572.jpg",
+     "details": "details 26",
+     "greutate": 77,
+     "price": 43,
+     "id": "26"
+    },
+    {
+     "createdAt": "2023-06-11T02:43:29.699Z",
+     "name": "Port Orange",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/329.jpg",
+     "details": "details 27",
+     "greutate": 45,
+     "price": 3,
+     "id": "27"
+    },
+    {
+     "createdAt": "2023-06-10T21:42:04.731Z",
+     "name": "South Hill",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/564.jpg",
+     "details": "details 28",
+     "greutate": 72,
+     "price": 32,
+     "id": "28"
+    },
+    {
+     "createdAt": "2023-06-10T20:57:36.471Z",
+     "name": "Camden",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/227.jpg",
+     "details": "details 29",
+     "greutate": 79,
+     "price": 62,
+     "id": "29"
+    },
+    {
+     "createdAt": "2023-06-10T16:32:18.169Z",
+     "name": "San Jacinto",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1185.jpg",
+     "details": "details 30",
+     "greutate": 50,
+     "price": 52,
+     "id": "30"
+    },
+    {
+     "createdAt": "2023-06-10T14:41:50.826Z",
+     "name": "Antioch",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1000.jpg",
+     "details": "details 31",
+     "greutate": 36,
+     "price": 80,
+     "id": "31"
+    },
+    {
+     "createdAt": "2023-06-10T09:11:30.568Z",
+     "name": "Montgomery",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1147.jpg",
+     "details": "details 32",
+     "greutate": 26,
+     "price": 46,
+     "id": "32"
+    },
+    {
+     "createdAt": "2023-06-11T07:58:07.530Z",
+     "name": "West New York",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/719.jpg",
+     "details": "details 33",
+     "greutate": 34,
+     "price": 93,
+     "id": "33"
+    },
+    {
+     "createdAt": "2023-06-11T01:11:30.128Z",
+     "name": "Athens-Clarke County",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/416.jpg",
+     "details": "details 34",
+     "greutate": 86,
+     "price": 44,
+     "id": "34"
+    },
+    {
+     "createdAt": "2023-06-11T01:35:30.349Z",
+     "name": "Rosemead",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/277.jpg",
+     "details": "details 35",
+     "greutate": 76,
+     "price": 35,
+     "id": "35"
+    },
+    {
+     "createdAt": "2023-06-10T14:44:19.457Z",
+     "name": "Bristol",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/873.jpg",
+     "details": "details 36",
+     "greutate": 48,
+     "price": 9,
+     "id": "36"
+    },
+    {
+     "createdAt": "2023-06-10T11:18:26.637Z",
+     "name": "Coconut Creek",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/166.jpg",
+     "details": "details 37",
+     "greutate": 37,
+     "price": 63,
+     "id": "37"
+    },
+    {
+     "createdAt": "2023-06-10T11:28:56.009Z",
+     "name": "Colorado Springs",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/180.jpg",
+     "details": "details 38",
+     "greutate": 33,
+     "price": 63,
+     "id": "38"
+    },
+    {
+     "createdAt": "2023-06-11T03:59:54.129Z",
+     "name": "Moreno Valley",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/576.jpg",
+     "details": "details 39",
+     "greutate": 33,
+     "price": 42,
+     "id": "39"
+    },
+    {
+     "createdAt": "2023-06-10T21:33:27.242Z",
+     "name": "Iowa City",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/261.jpg",
+     "details": "details 40",
+     "greutate": 2,
+     "price": 29,
+     "id": "40"
+    },
+    {
+     "createdAt": "2023-06-10T13:16:44.192Z",
+     "name": "Kokomo",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/137.jpg",
+     "details": "details 41",
+     "greutate": 10,
+     "price": 9,
+     "id": "41"
+    },
+    {
+     "createdAt": "2023-06-10T11:17:41.651Z",
+     "name": "Paradise",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1006.jpg",
+     "details": "details 42",
+     "greutate": 66,
+     "price": 37,
+     "id": "42"
+    },
+    {
+     "createdAt": "2023-06-10T14:53:43.656Z",
+     "name": "Rancho Cordova",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/816.jpg",
+     "details": "details 43",
+     "greutate": 93,
+     "price": 1,
+     "id": "43"
+    },
+    {
+     "createdAt": "2023-06-10T16:41:45.775Z",
+     "name": "San Jacinto",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/857.jpg",
+     "details": "details 44",
+     "greutate": 32,
+     "price": 1,
+     "id": "44"
+    },
+    {
+     "createdAt": "2023-06-11T01:46:54.194Z",
+     "name": "Euclid",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/514.jpg",
+     "details": "details 45",
+     "greutate": 16,
+     "price": 2,
+     "id": "45"
+    },
+    {
+     "createdAt": "2023-06-10T09:19:21.053Z",
+     "name": "Bryan",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/131.jpg",
+     "details": "details 46",
+     "greutate": 49,
+     "price": 12,
+     "id": "46"
+    },
+    {
+     "createdAt": "2023-06-11T02:50:06.123Z",
+     "name": "Huntington Beach",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/119.jpg",
+     "details": "details 47",
+     "greutate": 89,
+     "price": 43,
+     "id": "47"
+    },
+    {
+     "createdAt": "2023-06-10T20:58:05.608Z",
+     "name": "Lombard",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/67.jpg",
+     "details": "details 48",
+     "greutate": 45,
+     "price": 0,
+     "id": "48"
+    },
+    {
+     "createdAt": "2023-06-11T06:52:03.089Z",
+     "name": "Shreveport",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/184.jpg",
+     "details": "details 49",
+     "greutate": 23,
+     "price": 52,
+     "id": "49"
+    },
+    {
+     "createdAt": "2023-06-10T22:56:22.612Z",
+     "name": "Sparks",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1014.jpg",
+     "details": "details 50",
+     "greutate": 75,
+     "price": 79,
+     "id": "50"
+    },
+    {
+     "createdAt": "2023-06-10T11:49:45.591Z",
+     "name": "Milford",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/416.jpg",
+     "details": "details 51",
+     "greutate": 13,
+     "price": 49,
+     "id": "51"
+    },
+    {
+     "createdAt": "2023-06-10T10:00:32.810Z",
+     "name": "Tampa",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/436.jpg",
+     "details": "details 52",
+     "greutate": 90,
+     "price": 81,
+     "id": "52"
+    },
+    {
+     "createdAt": "2023-06-11T07:23:08.283Z",
+     "name": "Rockwall",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/443.jpg",
+     "details": "details 53",
+     "greutate": 1,
+     "price": 64,
+     "id": "53"
+    },
+    {
+     "createdAt": "2023-06-10T13:20:46.428Z",
+     "name": "Lombard",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/719.jpg",
+     "details": "details 54",
+     "greutate": 71,
+     "price": 16,
+     "id": "54"
+    },
+    {
+     "createdAt": "2023-06-10T10:53:59.869Z",
+     "name": "Santa Clarita",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/805.jpg",
+     "details": "details 55",
+     "greutate": 83,
+     "price": 80,
+     "id": "55"
+    },
+    {
+     "createdAt": "2023-06-10T20:45:30.744Z",
+     "name": "Delano",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1153.jpg",
+     "details": "details 56",
+     "greutate": 50,
+     "price": 88,
+     "id": "56"
+    },
+    {
+     "createdAt": "2023-06-10T09:43:40.529Z",
+     "name": "Wilmington",
+     "image": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+     "details": "details 57",
+     "greutate": 1,
+     "price": 1,
+     "id": "57"
+    }
+   ]

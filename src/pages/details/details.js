@@ -17,5 +17,6 @@ window.addEventListener("load", async () => {
 document.getElementById("details").addEventListener("click", (e) => {
   if (e.target.classList.contains("add-to-cart-btn")) {
     addProductToCart(productId);
+    alert("Produsul a fost adaugat in cos.");
   }
 });

@@ -1,6 +1,6 @@
 .card {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 1px solid rgb(251, 251, 163);
+  border: 2px solid rgb(251, 251, 163);
   border-radius: 6px;
   padding: 5px;
   width: 300px;
@@ -10,6 +10,11 @@
   align-items: center;
   justify-content: space-evenly;
   box-shadow: 5px 5px 4px #cacaca;
+}
+
+.card:hover {
+  border-color: #8f8f8f;
+  box-shadow: 5px 5px 4px rgb(251, 251, 163);
 }
 
 .card-details {
@@ -35,12 +40,11 @@
 
 .card img {
   width: 200px;
-  cursor: pointer;
 }
 
 .card-details h4 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-style: italic;
+  /* font-style: italic; */
   text-align: center;
 }
 

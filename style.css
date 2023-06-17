@@ -35,7 +35,7 @@
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #aaa;
+  color: #8d8d8d;
   font-weight: 800;
   font-size: 23px;
   margin: 0 10px;
@@ -81,16 +81,27 @@ ul {
 }
 
 #btnAddNewProd {
-  background-color: rgb(175, 231, 43);
+  background-color: rgb(207, 232, 148);
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
   border-radius: 5px;
 }
+.btnAddProd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.tableAddProd {
+.tabelGestionareProd {
   border: 1px solid black;
-  /* width: 50%; */
+  font-size: 18px;
+}
+
+thead {
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgb(237, 237, 147), white);
+  font-weight: bold;
 }
 
 #idAddProd {
@@ -99,22 +110,17 @@ ul {
   font-weight: bold;
   text-align: center;
 }
-.hidden {
-  border: 2px solid rgb(231, 201, 126);
-  width: 40%;
+#hidden {
   padding: 15px;
+  border: 2px solid black;
 }
-.hidden tr,
-td {
-  padding: auto;
-  border: none;
-}
+
 input[type="text"] {
   width: 400px;
 }
 
 #save {
-  background-color: rgb(144, 255, 144);
+  background-color: rgb(207, 232, 148);
   padding: 8px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
@@ -126,5 +132,42 @@ input[type="text"] {
   padding: 8px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   cursor: pointer;
+}
+
+.delete-product {
+  border: none;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+
+#inputDescriereProdus {
+  height: 60px;
+}
+
+#cumpara {
+  padding: 15px;
+  width: 150px;
+  font-size: 20px;
   border-radius: 5px;
+  background-image: linear-gradient(to bottom, rgb(237, 237, 147), white);
+  cursor: pointer;
+}
+
+.tabelCumparaturi,
+th,
+td {
+  border: 1px solid;
+  font-size: 18px;
+}
+
+.quantity {
+  text-align: center;
+}
+
+.bodyCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
