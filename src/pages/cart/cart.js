@@ -1,13 +1,11 @@
 import "../../../style.css";
 import { getProductById } from "../../api/getProductById";
-import { getProducts } from "../../api/getProduct.js";
 import {
   decrementProductQuantity,
   incrementProductQuantity,
   getProductQuantityFromLocalStorage,
   isProductAlreadyInCart,
 } from "../../utils/cart";
-import { deleteProductById } from "../../api/deleteProductById";
 
 const cart = localStorage.getItem("cart");
 const products = JSON.parse(cart);
@@ -29,18 +27,6 @@ const showProducts = async () => {
   });
 };
 window.addEventListener("load", showProducts);
-
-// const showTotal = async () => {
-//   const totalP = localStorage.getItem("cart");
-//   const totalProducts = JSON.parse(cart);
-//   document.getElementById("totalPrice").innerHTML = "";
-//   totalProducts.forEach((product) => {
-//     getProductById(product.id).then(productInfo) =>
-//      (document.getElementById("totalPrice").innerHTML += `
-//     <span>${productInfo.price}</span>;
-//     `);
-//   });
-// };
 
 document.getElementById("cart").addEventListener("click", async (e) => {
   const cartArray = JSON.parse(localStorage.getItem("cart"));
@@ -66,12 +52,6 @@ document.getElementById("cart").addEventListener("click", async (e) => {
       getProductQuantityFromLocalStorage(productId, cartArray);
   }
 });
-
-// const deleteCartLocalStorage = async () => {
-//   localStorage.removeItem("cart", "1");
-//   const products = await getProducts();
-//   localStorage.setItem("cart", JSON.stringify(cartArray));
-// };
 
 const tabelCos = document.querySelector(".tabelCumparaturi");
 tabelCos.addEventListener("click", stergeProdusCos);

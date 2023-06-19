@@ -33,51 +33,53 @@
     </nav>
     <div class="btnAddProd">
       <button id="btnAddNewProd">
-        <i class="fa-regular fa-plus"></i> Adauga produs nou
-      </button>
+        <i class="fa-regular fa-plus"></i> Adauga produs nou</button
+      ><br />
     </div>
-    <table hidden id="hidden">
-      <tr>
-        <td id="idAddProd">Adaugare produs</td>
-        <td>
-          <button id="save"><i class="fa-regular fa-plus"></i> Save</button>
-        </td>
-        <td><button id="cancel">Cancel</button></td>
-      </tr>
-      <tr>
-        <td>Imagine</td>
-        <td><input type="text" id="image" /></td>
-      </tr>
-      <tr>
-        <td>Nume</td>
-        <td><input type="text" id="name" /></td>
-      </tr>
-      <tr>
-        <td>Descriere</td>
-        <td><input type="text" id="inputDescriereProdus" /></td>
-      </tr>
-      <tr>
-        <td>Pret</td>
-        <td><input type="text" id="price" /></td>
-      </tr>
-      <tr>
-        <td>Cantitate</td>
-        <td><input type="text" id="quantity" /></td>
-      </tr>
-    </table>
-    <br />
-    <h2>Gestionare produse</h2>
-    <table class="tabelGestionareProd">
-      <thead>
+    <div class="bodyAdmin">
+      <table hidden id="hidden">
+        <tr>
+          <td id="idAddProd">Adaugare produs</td>
+          <td>
+            <button id="save"><i class="fa-regular fa-plus"></i> Save</button>
+          </td>
+          <td><button id="cancel">Cancel</button></td>
+        </tr>
         <tr>
           <td>Imagine</td>
-          <td>Nume</td>
-          <td>Pret</td>
-          <td></td>
+          <td><input type="text" id="image" /></td>
         </tr>
-      </thead>
-      <tbody id="tableBody"></tbody>
-    </table>
+        <tr>
+          <td>Nume</td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td>Descriere</td>
+          <td><input type="text" id="inputDescriereProdus" /></td>
+        </tr>
+        <tr>
+          <td>Pret</td>
+          <td><input type="text" id="price" /></td>
+        </tr>
+        <tr>
+          <td>Cantitate</td>
+          <td><input type="number" id="quantity" /></td>
+        </tr>
+      </table>
+      <br />
+      <h2>Gestionare produse</h2>
+      <table class="tabelGestionareProd">
+        <thead>
+          <tr>
+            <td>Imagine</td>
+            <td>Nume</td>
+            <td>Pret</td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
     <br />
 
     <script type="module" src="admin.js"></script>

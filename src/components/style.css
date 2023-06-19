@@ -1,6 +1,6 @@
 .card {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 2px solid rgb(251, 251, 163);
+  border: 2px solid rgb(253, 253, 176);
   border-radius: 6px;
   padding: 5px;
   width: 300px;
@@ -14,7 +14,6 @@
 
 .card:hover {
   border-color: #8f8f8f;
-  box-shadow: 5px 5px 4px rgb(251, 251, 163);
 }
 
 .card-details {
@@ -32,6 +31,7 @@
 .card-details img {
   width: 250px;
   margin: 0;
+  border-radius: 10px;
 }
 .card-details p {
   font-size: 30px;
@@ -44,7 +44,6 @@
 
 .card-details h4 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  /* font-style: italic; */
   text-align: center;
 }
 
