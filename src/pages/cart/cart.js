@@ -61,14 +61,16 @@ async function stergeProdusCos(e) {
     const id = e.target.parentNode.parentNode.id.substring(1);
     e.target.parentNode.parentNode.remove();
   }
+  sumaTotal();
 }
 
 // total cos:
+//sa folosesc local storage;
+// cu subtotal
 
-export async function calculeazaTotalCos() {
+export function calculeazaTotalCos() {
   let total = 0;
   for (const product of products) {
-    const productInfo = await getProductById(product.id);
     const priceElement = document
       .getElementById("cart")
       .querySelector("#p" + product.id)
@@ -79,13 +81,14 @@ export async function calculeazaTotalCos() {
     const priceValue = parseFloat(priceElement.innerHTML);
     const quantityValue = parseInt(cantitate.innerHTML);
     total += priceValue * quantityValue;
-    console.log(total);
+    console.log(total.toFixed(3));
   }
-  return total;
+  return total.toFixed(3);
 }
 
-async function sumaTotal() {
-  const total = await calculeazaTotalCos();
+function sumaTotal() {
+  const total = calculeazaTotalCos();
   document.getElementById("totalP").innerHTML = "Total: " + total + " " + "Lei";
 }
+
 window.addEventListener("load", sumaTotal);
