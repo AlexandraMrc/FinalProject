@@ -3,7 +3,7 @@ import { getProductById } from "../../api/getProductById.js";
 import { getProducts } from "../../api/getProduct.js";
 import { deleteProductById } from "../../api/deleteProductById";
 import { addProduct } from "../../api/addProduct";
-//import { createProductDetailsCard } from "../../components/productDetailsCard.js";
+// import { editProduct } from "../../api/editProduct";
 
 const tableBody = document.getElementById("tableBody");
 
@@ -20,10 +20,24 @@ const AdminTableProducts = async () => {
     getProductById(product.id).then(
       (productInfo) =>
         (document.getElementById("tableBody").innerHTML += `
-  <tr id=p${product.id}><td><img src=${productInfo.image} width="30px"></td>
-  <td>${productInfo.name}</td>
-  <td>${productInfo.price}</td>
-  <td><button class='delete-product'> Sterge </button></td> </tr>
+        <tr id=p${product.id}>
+        <td><img src=${productInfo.image} width="30px"></td>
+        <td>${productInfo.name}</td>
+        <td>${productInfo.price}</td>
+        <td><button class='edit-product'> Edit </button></td>
+        <td><button class='delete-product'> Sterge </button></td> </tr>
+        <tbody hidden id="hiddenp${product.id}">
+          <tr>
+            <td id="idEditProdus">Editare produs</td>
+            <td><button id="saveEdit"><i class="fa-regular fa-plus"></i> Save</button></td>
+            <td><button id="cancelEdit">Cancel</button></td>
+          </tr>
+          <tr><td>Imagine</td><td><input type="text" id="imageEdit" value="${productInfo.image}"></td></tr>
+          <tr><td>Nume</td><td><input type="text" id="nameEdit" value="${productInfo.name}"></td></tr>
+          <tr><td>Descriere</td><td><input type="text" id="inputDescriereProdusEdit" value="${productInfo.details}"></td></tr>
+          <tr><td>Pret</td><td><input type="text" id="priceEdit" value="${productInfo.price}"></td></tr>
+          <tr><td>Cantitate</td><td><input type="number" id="quantityEdit" value="${productInfo.inStoc}"></td></tr>
+        </tbody> 
   `)
     );
   });
@@ -37,6 +51,9 @@ async function onClick(e) {
     e.target.parentNode.parentNode.remove();
     const response = await deleteProductById(id);
     console.log(response);
+  } else if (e.target.classList.contains("edit-product")) {
+    const id = e.target.parentNode.parentNode.id.substring(1);
+    editProdus(id);
   }
 }
 
@@ -45,10 +62,16 @@ window.addEventListener("load", setAdminLocalStorage);
 
 const btnAdaugareProduse = document.querySelector("#btnAddNewProd");
 
-const tabelAscuns = document.querySelector("#hidden");
+const tabelAscuns = document.querySelector("#newproducthidden");
 btnAdaugareProduse.addEventListener("click", adaugaProduseNoi);
 function adaugaProduseNoi() {
   tabelAscuns.style.display = "table";
+}
+
+function editProdus(id) {
+  const hiddenid = id;
+  const editTabelAscuns = document.getElementById("hiddenp" + hiddenid);
+  editTabelAscuns.style.display = "table";
 }
 
 const btnAscundereTabel = document.querySelector("#cancel");
@@ -84,12 +107,3 @@ function saveProduseNoi() {
   document.getElementById("price").value = "";
   document.getElementById("quantity").value = "";
 }
-
-//golire field-uri dupa apasarea butonului Save
-// const btnEmptyField = document.getElementById("save");
-// btnEmptyField.addEventListener("click", emptyField);
-// function emptyField() {
-//   if (btnEmptyField.value != "") {
-//     btnEmptyField.value = ""
-//   }
-// }
