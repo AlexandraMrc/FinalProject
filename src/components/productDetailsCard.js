@@ -1,5 +1,4 @@
 import "./style.css";
-import { addProductToCart } from "../utils/cart";
 
 export const createProductDetailsCard = (product) => `
    <div class="card-details">

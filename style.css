@@ -192,6 +192,23 @@ input[type="text"] {
   height: 60px;
 }
 
+.editForm {
+  border: 2px solid black;
+  background-color: rgb(207, 232, 148);
+  padding: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pEditare {
+  text-align: center;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /* cart  */
 #cumpara {
   padding: 15px;

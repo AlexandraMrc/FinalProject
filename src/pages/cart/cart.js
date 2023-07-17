@@ -65,8 +65,6 @@ async function stergeProdusCos(e) {
 }
 
 // total cos:
-//sa folosesc local storage;
-// cu subtotal
 
 export function calculeazaTotalCos() {
   let total = 0;

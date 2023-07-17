@@ -2,7 +2,7 @@ import { productsURL } from "../constans";
 
 export const addProduct = async (image, name, description, price, quantity) => {
   const response = await fetch(`${productsURL}`, {
-    method: "POST",
+    method: "POST", //(create)  adaugare produs
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       name: name,

@@ -8,7 +8,7 @@ export const editProduct = async (
   quantity
 ) => {
   const response = await fetch(`${productsURL}`, {
-    method: "PUT",
+    method: "PUT", // (update) produs
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       name: name,
