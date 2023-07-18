@@ -26,7 +26,7 @@ const adminTableProducts = async () => {
         <td><img src=${productInfo.image} width="30px"></td>
         <td>${productInfo.name}</td>
         <td>${productInfo.price}</td>
-        <td><button class='edit-product'> Edit </button></td>
+        <td><button class='edit-product'> Editare </button></td>
         <td><button class='delete-product'> Sterge </button></td> </tr>
         <div id="hiddenp${product.id}" style="display:none;" >
         <fieldset class="editForm">
@@ -55,9 +55,12 @@ tableBody.addEventListener("click", onClick);
 
 async function onClick(e) {
   if (e.target.classList.contains("delete-product")) {
-    //daca eleme pe care s-a facut click are clasa 'delete-product'
+    //daca elem pe care s-a facut click are clasa 'delete-product'
     const id = e.target.parentNode.parentNode.id.substring(1);
-    e.target.parentNode.parentNode.remove(); //elimina elementul parinte al butonului din DOM
+    let text = "Sigur doresti sa stergi acest produs?";
+    if (confirm(text) == true) {
+      e.target.parentNode.parentNode.remove();
+    } //elimina elementul parinte al butonului din DOM
     const response = await deleteProductById(id); //apeleaza functia si asteapta rez promisiunii
     console.log(response);
   } else if (e.target.classList.contains("edit-product")) {
